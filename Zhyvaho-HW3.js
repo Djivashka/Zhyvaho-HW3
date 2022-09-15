@@ -163,7 +163,7 @@ if (numOfKilometer < 1) {
     console.log(numOfKilometer + ' кілометр');
 }   else if (numOfKilometer > 100 && lastNum > 1 && lastNum < 5){
     console.log(numOfKilometer + ' кілометри');
-}   else if (numOfKilometer > 100 && lastNum > 5 || lastNum === 0){
+}   else if (numOfKilometer > 100 && lastNum >= 5 || lastNum === 0){
     console.log(numOfKilometer + ' кілометрів');
 }   
 
